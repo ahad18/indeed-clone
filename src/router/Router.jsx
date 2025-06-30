@@ -63,7 +63,7 @@ function RouterApp() {
 return (
   <Router>
     <Routes>
-      <Route path="/" element={token !== null ? <App /> : <Navigate to="/login" />}>
+      // <Route path="/" element={token !== null ? <App /> : <Navigate to="/login" />}>
         <Route path="/" element={<Home />} />
         <Route path="/my-job" element={<MyJobs />} />
         <Route path="/applied-candidates" element={<AppliedCandidates />} />
